@@ -1,7 +1,11 @@
+//main: ..css/style.less
+
 @import 'lesshat';
 /* Import Fonts
 ------------------------------------------------------------ */
 @import url(//fonts.googleapis.com/css?family=Allura|Raleway:400,200,700);
+@import url(https://fonts.googleapis.com/css?family=Carrois+Gothic);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,700italic,700,600,600italic);
 
 /* Font Stacks */
 .customserif(@size:1.6) {
@@ -12,7 +16,7 @@
   line-height: 1.625;
 }
 .custombody(@size:1.6) {
-  font-family: "Raleway","Helvetica Neue", "Trebuchet MS", Calibri, sans-serif;
+  font-family: "Carrois Gothic","Helvetica Neue", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: unit((@size*10),px);
   font-size: unit(@size,rem);
@@ -20,7 +24,7 @@
 }
 
 .customheader(@size:1.6) {
-  font-family: "Raleway","Trebuchet MS", Calibri, sans-serif;
+  font-family: "Carrois Gothic","Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: unit((@size*10),px);
   font-size: unit(@size,rem);
@@ -31,8 +35,8 @@
 }
 
 .script(@size:8){
-  font-family: "Allura", cursive;
-  font-weight: 400;
+  font-family: "Josefin Slab", serif;
+  font-weight: 600;
   font-size: unit((@size*10),px);
   font-size: unit(@size,rem);
   line-height: 1;
@@ -48,10 +52,12 @@
 @orange: #FCB040;
 @yellow: #ff0;
 @green: #384B45;
-@blue: #0098B2;
+@blue: #005a9b;
 @purple: #90f;
 @beige: #c96;
 @brown: #630;
+@navy: #2f3644;
+@teal: #009775;
 
 @ltred: lighten(@red,20%);
 @dkred: darken(@red, 20%);
@@ -102,17 +108,17 @@
   position: relative;
   &:after{
     //top: 100%;
-    left: 50%; 
-    border: solid transparent; 
-    content: " "; 
-    height: 0; 
-    width: 0; 
-    position: absolute; 
-    pointer-events: none; 
-    border-color: fade(@color,0%); 
-    border-top-color: @color; 
-    border-width: 20px 40px; 
-    margin-left: -40px; 
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: fade(@color,0%);
+    border-top-color: @color;
+    border-width: 20px 40px;
+    margin-left: -40px;
     z-index: 300;
   }
 }
@@ -121,17 +127,17 @@
   position: relative;
   &:before{
     bottom: 100%;
-    left: 50%; 
-    border: solid transparent; 
-    content: " "; 
-    height: 0; 
-    width: 0; 
-    position: absolute; 
-    pointer-events: none; 
-    border-color: fade(@color,0%); 
-    border-bottom-color: @color; 
-    border-width: 20px 40px; 
-    margin-left: -40px; 
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: fade(@color,0%);
+    border-bottom-color: @color;
+    border-width: 20px 40px;
+    margin-left: -40px;
   }
 }
 
