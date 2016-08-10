@@ -7228,6 +7228,7 @@ Site Navigation
   line-height: 1.625;
   line-height: 1.5;
   width: 100%;
+  text-transform: uppercase;
 }
 .genesis-nav-menu .menu-item,
 .genesis-nav-menu .separator {
@@ -7320,8 +7321,9 @@ Site Navigation
   width: 85%;
   text-align: right;
   position: relative;
+  top: 30px;
 }
-.nav-primary top:30px li.menu-item a {
+.nav-primary li.menu-item a {
   font-family: "Carrois Gothic", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -7337,42 +7339,42 @@ Site Navigation
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-.nav-primary top:30px li.menu-item.first-child {
+.nav-primary li.menu-item.first-child {
   padding-left: 0;
 }
-.nav-primary top:30px li.menu-item.last-child {
+.nav-primary li.menu-item.last-child {
   padding-right: 0;
 }
-.nav-primary top:30px li.menu-item .sub-menu {
+.nav-primary li.menu-item .sub-menu {
   margin-top: 0px;
   background-color: #ffffff;
   border: 1px solid #d4d4d4;
 }
-.nav-primary top:30px li.menu-item .sub-menu li.menu-item {
+.nav-primary li.menu-item .sub-menu li.menu-item {
   padding: 0 2rem;
   width: 100%;
   position: relative;
 }
-.nav-primary top:30px li.menu-item .sub-menu li.menu-item a {
+.nav-primary li.menu-item .sub-menu li.menu-item a {
   background-color: transparent;
   border: 0;
   color: #888888;
   padding: 1rem 0;
   width: 100%;
 }
-.nav-primary top:30px li.menu-item .sub-menu li.menu-item .sub-menu {
+.nav-primary li.menu-item .sub-menu li.menu-item .sub-menu {
   left: 0;
   top: 0;
 }
-.nav-primary top:30px li.menu-item .sub-menu > li.menu-item.menu-item-has-children > a:after {
+.nav-primary li.menu-item .sub-menu > li.menu-item.menu-item-has-children > a:after {
   font-family: "FontAwesome";
   content: '\f105';
   margin: 0 0.5em;
 }
-.nav-primary top:30px li.menu-item .sub-menu li.last-child > a {
+.nav-primary li.menu-item .sub-menu li.last-child > a {
   border: 0;
 }
-.nav-primary top:30px li.menu-item .sub-menu li:hover > a {
+.nav-primary li.menu-item .sub-menu li:hover > a {
   color: #005a9b;
   text-decoration: none;
 }
