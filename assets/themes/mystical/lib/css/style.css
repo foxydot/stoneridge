@@ -7375,7 +7375,7 @@ Site Navigation
   border: 0;
 }
 .nav-primary li.menu-item .sub-menu li:hover > a {
-  color: #005a9b;
+  color: #009775;
   text-decoration: none;
 }
 .nav-primary .menu > li.menu-item.menu-item-has-children {
@@ -7391,7 +7391,7 @@ Site Navigation
 .nav-primary li:hover a:hover,
 .nav-primary li.current-menu-item a:hover,
 .nav-primary li.current-menu-ancestor a:hover {
-  color: #005a9b;
+  color: #009775;
   text-decoration: none;
 }
 .mainNav > ul > li.first > ul > li.title > ul > li > ul > li {

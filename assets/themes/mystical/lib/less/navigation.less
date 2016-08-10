@@ -4,6 +4,9 @@
 /*
 Site Navigation
 ---------------------------------------------------------------------------------------------------- */
+@import 'lesshat';
+@import 'mixins';
+
 .genesis-nav-menu {
   clear: both;
   .customheader();
@@ -172,7 +175,7 @@ Site Navigation
       }
       li:hover{
         &>a{
-          color: @blue;
+          color: @teal;
           text-decoration: none;
         }
       }
@@ -187,7 +190,7 @@ Site Navigation
   }
   li:hover, li.current-menu-item, li.current-menu-ancestor{
     a, a:hover{
-      color: @blue;
+      color: @teal;
       text-decoration: none;
       }
   }
