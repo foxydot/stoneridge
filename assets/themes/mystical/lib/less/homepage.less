@@ -1,3 +1,6 @@
+
+//main: ..css/style.less
+
 @import 'lesshat';
 @import 'mixins';
 .hp-top{
@@ -19,12 +22,12 @@
     }
     .button{
       border: 0;
-      background-color: @blue;
+      background-color: @navy;
       color: @white;
       text-decoration: none;
       margin: 0;
       &:hover{
-        background-color: darken(@blue,10%);
+        background-color: darken(@navy,10%);
       }
     }
   }
@@ -47,8 +50,8 @@
     }
   }
   .section.section-forms{
-    .background-image(linear-gradient(to right, @offwhite 0%,@offwhite 49.9%,@orange 50%,@orange 100%));
-    border-bottom: 6px solid @orange;
+    .background-image(linear-gradient(to right, @ltgrey 0%,@ltgrey 49.9%,@teal 50%,@teal 100%));
+    border-bottom: 6px solid @teal;
     .section-body{
       .wrap{
         padding: 0;
@@ -87,10 +90,10 @@
         margin: 0.625em 0 0.375em;
       }
      h3.gform_title{
-        color: @orange;
+        color: @navy;
      }
      &.column-2{
-       background-color: @orange;
+       background-color: @teal;
        color: @medgrey;
        .calculator-box{
          margin: 30px auto;
@@ -198,12 +201,12 @@
       }
     }
   }
-    
+
   .sectioned-page-wrapper{
     .section.section-forms{
-    .background-image(linear-gradient(to bottom, @offwhite 0%,@offwhite 49.9%,@orange 50%,@orange 100%));
-      border-top: 6px solid @orange;
-      border-bottom: 0 solid @orange;
+    .background-image(linear-gradient(to bottom, @ltgrey 0%,@ltgrey 49.9%,@teal 50%,@teal 100%));
+      border-top: 6px solid @teal;
+      border-bottom: 0 solid @teal;
       .section-body>.wrap>.row{
         margin: 0;
         padding: 0;
@@ -215,7 +218,7 @@
          background-color: @offwhite;
        }
        &.column-2{
-         background-color: @orange;
+         background-color: @teal;
          color: @white;
          .icon-calculator{
            &:before{
@@ -257,7 +260,7 @@
       .section-title,.section-body{
         background-color: @white;
         padding: 0 2vw;
-        
+
       }
     }
   }

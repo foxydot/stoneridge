@@ -1,10 +1,15 @@
+
+//main: ..css/style.less
+
 /*
 Sidebars
 ---------------------------------------------------------------------------------------------------- */
+@import 'lesshat';
+@import 'mixins';
 
 .sidebar {
-  background: @offwhite;
-  color: @ltgrey;
+  background: @ltgrey;
+  color: @dkgrey;
   padding: 6rem 2rem 2rem 0;
   height: 100%;
 }
@@ -32,7 +37,7 @@ Sidebars
   border-radius: 0px;
   .widget-title{
     .custombody(2.4);
-    color: @blue;
+    color: @navy;
   }
 }
 
@@ -58,7 +63,7 @@ Sidebars
       color: @dkgrey;
       border: 0;
       i{
-        color: @orange;
+        color: @navy;
       }
     }
   }
@@ -70,6 +75,6 @@ Sidebars
     padding: 0.4rem 2rem 0.4rem 50rem;
 }
 span.fa-stack{
-  color: @orange;
+  color: @navy;
 }
 }
