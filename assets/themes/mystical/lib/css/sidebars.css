@@ -128,6 +128,14 @@ Sidebars
 .sidebar .widget_text a {
   border: none;
 }
+.sidebar .widget_text .widget-wrap {
+  background-color: #005a9b;
+  border: 1px solid #888888;
+  border-radius: 12px;
+  text-align: center;
+  padding: 2rem;
+  font-size: 2.1rem;
+}
 .sidebar .widget_sp_image {
   text-align: center;
 }
@@ -137,14 +145,6 @@ Sidebars
 }
 .sidebar .widget_sp_image .link a i {
   color: #2f3644;
-}
-.sidebar .widget-wrap {
-  background-color: #005a9b;
-  border: 1px solid #888888;
-  border-radius: 12px;
-  text-align: center;
-  padding: 2rem;
-  font-size: 2.1rem;
 }
 .sidebar .widget.gform_widget {
   background-color: #d4d4d4;
