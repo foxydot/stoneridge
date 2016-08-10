@@ -66,7 +66,7 @@
   visibility: hidden;
 }
 .pre-header {
-  background-color: #2f3644;
+  background-color: #005a9b;
   color: white;
   z-index: 300;
 }
@@ -96,7 +96,7 @@
 Site Header
 ---------------------------------------------------------------------------------------------------- */
 .site-header {
-  background-color: #ffffff;
+  background-color: #005a9b;
   padding: 20px 0;
   padding: 0.25em 0;
   z-index: 300;
@@ -118,6 +118,8 @@ Site Header
 }
 .header-image .title-area {
   padding: 0;
+  position: relative;
+  top: 30px;
 }
 .site-title {
   font-size: 28px;
