@@ -40,7 +40,7 @@ jQuery(document).ready(function($) {
 
     $(window).scroll(function() {
        if($(window).scrollTop() == 0) {
-           $(".sticky-wrapper").css('height','102px');
+           $(".sticky-wrapper").css('height','auto');
        }
     });
     //add element to page
