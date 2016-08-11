@@ -7911,6 +7911,9 @@ Sidebars
 .sidebar {
   /*Text Widget with Click */
 }
+.sidebar .widget_text {
+  color: #ffffff;
+}
 .sidebar .widget_text .textwidget .readmore {
   padding: 6px 24px;
   font-family: "Carrois Gothic", "Trebuchet MS", Calibri, sans-serif;
