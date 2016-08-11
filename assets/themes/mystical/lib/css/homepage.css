@@ -87,7 +87,8 @@
 }
 .sectioned-page-wrapper .section {
   text-align: center;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
 }
 .sectioned-page-wrapper .section .section-title {
   padding: 0;
