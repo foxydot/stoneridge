@@ -166,11 +166,11 @@ img.alignright,
 .section-title a,
 .entry-title a,
 .sidebar .widget-title a {
-  color: #2f3644;
+  color: #ffffff;
 }
 .section-title a:hover,
 .entry-title a:hover {
-  color: #888888;
+  color: #ffffff;
 }
 .sidebar .widget-title a {
   border: none;
