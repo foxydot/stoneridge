@@ -31,12 +31,12 @@ jQuery(document).ready(function($) {
     var preheaderheight = $(".pre-header").outerHeight();
     var headerheight = $(".site-header").outerHeight();
 	if($( window ).width() > 480){
-        $(".pre-header").sticky();
-        $(".site-header").sticky({topSpacing:preheaderheight});
+        $(".site-header").sticky();
         $(".notification-bar").sticky({topSpacing:headerheight});
     } else {
         $(".site-header").sticky();
     }
+    
 
     $(window).scroll(function() {
        if($(window).scrollTop() == 0) {

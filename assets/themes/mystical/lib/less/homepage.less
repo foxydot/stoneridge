@@ -3,6 +3,50 @@
 
 @import 'lesshat';
 @import 'mixins';
+.pre-header{
+  min-height: 170px;
+  padding: 100px 0;
+  background-image: url(../img/stone-header.png);
+  background-position: center 75%;
+  background-size: cover;
+  margin-bottom: -132px;
+  .widget-area{
+    color: @white;
+    text-shadow: 0 0 4px @dkgrey;
+    position: relative;
+    top: -80px;
+    .custombody(1.4);
+    line-height: 1.65;
+  }
+  .logo{
+    height: 280px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 30%;
+    background-image:url(../img/logo_shadow.png);
+  }
+  nav.nav-primary{
+    z-index: 1;
+    display: block;
+    margin: 0 auto;
+  }
+}
+.site-header{
+  background-color: fade(@blue,0%);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  .title-area{
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+}
 .hp-top{
   z-index: -1;
   .widget_sp_image{
@@ -151,6 +195,7 @@
     }
   }
   .section.section-lifestyle{
+    background-size: cover;
     padding: 8rem 0;
     .section-title{
       h3{
