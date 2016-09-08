@@ -47,33 +47,6 @@
   clear: both;
   visibility: hidden;
 }
-.pre-header {
-  background-color: #005a9b;
-  color: white;
-  z-index: 300;
-}
-.pre-header .widget-area {
-  width: 100%;
-}
-.pre-header .widget-area .textwidget {
-  text-align: center;
-}
-.pre-header .widget-area .textwidget ul {
-  padding: 1em 0;
-}
-.pre-header .widget-area .textwidget ul li {
-  display: inline-block;
-  font-size: 0.8em;
-  font-weight: bold;
-  padding: 0 1em;
-  border-right: 1px solid #ffffff;
-}
-.pre-header .widget-area .textwidget ul li i.fa {
-  margin-left: 1em;
-}
-.pre-header .widget-area .textwidget ul li:last-child {
-  border-right: 0;
-}
 /*
 Site Header
 ---------------------------------------------------------------------------------------------------- */
@@ -101,7 +74,7 @@ Site Header
 .header-image .title-area {
   padding: 0;
   position: relative;
-  top: 30px;
+  top: 10px;
 }
 .site-title {
   font-size: 28px;
