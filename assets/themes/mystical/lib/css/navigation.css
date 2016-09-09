@@ -151,8 +151,6 @@ Site Navigation
   display: inline-block;
   width: 85%;
   text-align: right;
-  position: relative;
-  top: 25px;
 }
 .nav-primary li.menu-item a {
   font-family: "Carrois Gothic", "Trebuchet MS", Calibri, sans-serif;
