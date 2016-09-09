@@ -7018,6 +7018,10 @@ Site Header
   z-index: 300;
   border-bottom: 0px solid #d4d4d4;
 }
+.site-header .wrap {
+  background-color: rgba(93, 120, 147, 0.5);
+  z-index: 9000;
+}
 /* Title Area
 --------------------------------------------- */
 .title-area {
@@ -7302,9 +7306,8 @@ Site Navigation
   font-size: 17px;
   font-size: 1.7rem;
   line-height: 1.625;
-  padding: 0em 0.5em 0em 0.5em;
+  padding: 3em 0.5em;
   color: #ffffff;
-  background-color: rgba(93, 120, 147, 0.5);
   text-transform: uppercase;
   font-weight: 600;
   -webkit-transition: all 0.5s ease-in-out;
