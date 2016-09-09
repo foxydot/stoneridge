@@ -7295,8 +7295,6 @@ Site Navigation
   width: 85%;
   text-align: right;
   padding-top: 40px;
-  padding-bottom: 0px;
-  background-color: rgba(93, 120, 147, 0.5);
 }
 .nav-primary li.menu-item a {
   font-family: "Carrois Gothic", "Trebuchet MS", Calibri, sans-serif;
@@ -7304,8 +7302,9 @@ Site Navigation
   font-size: 17px;
   font-size: 1.7rem;
   line-height: 1.625;
-  padding: 3em 0.5em;
+  padding: 0em 0.5em 0em 0.5em;
   color: #ffffff;
+  background-color: rgba(93, 120, 147, 0.5);
   text-transform: uppercase;
   font-weight: 600;
   -webkit-transition: all 0.5s ease-in-out;
@@ -7366,7 +7365,7 @@ Site Navigation
 .nav-primary li:hover a:hover,
 .nav-primary li.current-menu-item a:hover,
 .nav-primary li.current-menu-ancestor a:hover {
-  color: #009775;
+  color: #2f3644;
   text-decoration: none;
 }
 .mainNav > ul > li.first > ul > li.title > ul > li > ul > li {
