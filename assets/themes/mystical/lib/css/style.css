@@ -7018,10 +7018,6 @@ Site Header
   z-index: 300;
   border-bottom: 0px solid #d4d4d4;
 }
-.site-header .wrap {
-  background-color: rgba(93, 120, 147, 0.5);
-  z-index: 9000;
-}
 /* Title Area
 --------------------------------------------- */
 .title-area {
