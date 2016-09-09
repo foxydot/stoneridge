@@ -7296,6 +7296,9 @@ Site Navigation
   text-align: right;
   padding-top: 40px;
 }
+.nav-primary li.menu-item {
+  background-color: rgba(93, 120, 147, 0.5);
+}
 .nav-primary li.menu-item a {
   font-family: "Carrois Gothic", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
@@ -8799,7 +8802,6 @@ Site Footer
   background-position: center 75%;
   background-size: cover;
   margin-bottom: -132px;
-  background-color: rgba(93, 120, 147, 0.5);
 }
 .pre-header .widget-area {
   color: #ffffff;
