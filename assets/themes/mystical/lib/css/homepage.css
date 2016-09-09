@@ -151,7 +151,7 @@
   background-image: -moz-linear-gradient(left, #d4d4d4 0%, #d4d4d4 49.9%, #009775 50%, #009775 100%);
   background-image: -o-linear-gradient(left, #d4d4d4 0%, #d4d4d4 49.9%, #009775 50%, #009775 100%);
   background-image: linear-gradient(to right, #d4d4d4 0%, #d4d4d4 49.9%, #009775 50%, #009775 100%);
-  border-bottom: 6px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4 !important;
 }
 .sectioned-page-wrapper .section.section-forms .section-body .wrap {
   padding: 0;
@@ -307,8 +307,6 @@
     background-image: -moz-linear-gradient(top, #d4d4d4 0%, #d4d4d4 49.9%, #009775 50%, #009775 100%);
     background-image: -o-linear-gradient(top, #d4d4d4 0%, #d4d4d4 49.9%, #009775 50%, #009775 100%);
     background-image: linear-gradient(to bottom, #d4d4d4 0%, #d4d4d4 49.9%, #009775 50%, #009775 100%);
-    border-top: 0 solid #009775;
-    border-bottom: 0px solid linear-gradient(to right, #d4d4d4 0%, #d4d4d4 49.9%, #009775 50%, #009775 100%);
   }
   .sectioned-page-wrapper .section.section-forms .section-body > .wrap > .row {
     margin: 0;
