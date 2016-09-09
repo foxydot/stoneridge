@@ -7295,6 +7295,7 @@ Site Navigation
   width: 85%;
   text-align: right;
   padding-top: 40px;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 .nav-primary li.menu-item a {
   font-family: "Carrois Gothic", "Trebuchet MS", Calibri, sans-serif;
