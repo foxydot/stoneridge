@@ -7295,8 +7295,7 @@ Site Navigation
   width: 85%;
   text-align: right;
   padding-top: 40px;
-}
-.nav-primary li.menu-item {
+  padding-bottom: 0px;
   background-color: rgba(93, 120, 147, 0.5);
 }
 .nav-primary li.menu-item a {
