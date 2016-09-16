@@ -126,12 +126,13 @@
 .hp-top .widget_sp_image .button:hover {
   background-color: #1a1e26;
 }
-.site-inner {
+.home .page .page-id-4 .page-template .page-template-page-sectioned .site-container .site-inner {
   background-color: #ffffff;
+  padding: 0;
+  margin: 0;
 }
-.site-inner .button,
-.site-inner .button:hover {
-  width: auto;
+.home .page .page-id-4 .page-template .page-template-page-sectioned .site-container .site-inner .content-sidebar-wrap {
+  background-color: #ffffff;
 }
 .sectioned-page-wrapper .section {
   text-align: center;
