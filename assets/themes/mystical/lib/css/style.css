@@ -8871,11 +8871,11 @@ Site Footer
 .hp-top .widget_sp_image .button:hover {
   background-color: #1a1e26;
 }
-.site-inner .container {
+.site-inner.container {
   background-color: #ffffff;
 }
-.site-inner .button,
-.site-inner .button:hover {
+.site-inner.container .button,
+.site-inner.container .button:hover {
   width: auto;
 }
 .sectioned-page-wrapper .section {
