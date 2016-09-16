@@ -8872,12 +8872,12 @@ Site Footer
   background-color: #1a1e26;
 }
 .site-container .site-inner {
-  background-color: #ffffff !important;
+  background-color: #ffffff;
   padding: 0;
   margin: 0;
 }
 .site-container .site-inner .content-sidebar-wrap {
-  background-color: #ffffff !important;
+  background-color: #ffffff;
 }
 .sectioned-page-wrapper .section {
   text-align: center;
