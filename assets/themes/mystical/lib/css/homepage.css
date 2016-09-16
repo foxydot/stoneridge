@@ -127,12 +127,12 @@
   background-color: #1a1e26;
 }
 .site-container .site-inner {
-  background-color: #ffffff;
+  background-color: #ffffff !important;
   padding: 0;
   margin: 0;
 }
 .site-container .site-inner .content-sidebar-wrap {
-  background-color: #ffffff;
+  background-color: #ffffff !important;
 }
 .sectioned-page-wrapper .section {
   text-align: center;
