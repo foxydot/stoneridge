@@ -8158,7 +8158,7 @@ Site Footer
   line-height: 1;
 }
 .page-template-page-sectioned .site-container .site-inner {
-  background-image: linear-gradient(to right, #d4d4d4 0%, #d4d4d4 33.3%, #ffffff 33.4%, #ffffff 100%);
+  background-color: #ffffff;
   padding: 0;
   margin: 0;
 }
