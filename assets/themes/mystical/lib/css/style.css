@@ -8158,12 +8158,12 @@ Site Footer
   line-height: 1;
 }
 .page-template-page-sectioned .site-container .site-inner {
-  background-color: #ffffff;
+  background: transparent;
   padding: 0;
   margin: 0;
 }
 .page-template-page-sectioned .site-container .site-inner .content-sidebar-wrap {
-  background-image: linear-gradient(to right, #d4d4d4 0%, #d4d4d4 33.3%, #ffffff 33.4%, #ffffff 100%);
+  background: transparent;
 }
 .sectioned-page-wrapper {
   position: relative;
@@ -8871,13 +8871,12 @@ Site Footer
 .hp-top .widget_sp_image .button:hover {
   background-color: #1a1e26;
 }
-.site-container .site-inner {
-  background-color: #ffffff;
-  padding: 0;
-  margin: 0;
+.site-inner {
+  background: #ffffff;
 }
-.site-container .site-inner .content-sidebar-wrap {
-  background-color: #ffffff;
+.site-inner .button,
+.site-inner .button:hover {
+  width: auto;
 }
 .sectioned-page-wrapper .section {
   text-align: center;
