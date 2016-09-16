@@ -126,6 +126,9 @@
 .hp-top .widget_sp_image .button:hover {
   background-color: #1a1e26;
 }
+.site-inner .container {
+  background-color: #ffffff;
+}
 .site-inner .button,
 .site-inner .button:hover {
   width: auto;
