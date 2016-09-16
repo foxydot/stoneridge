@@ -8871,12 +8871,12 @@ Site Footer
 .hp-top .widget_sp_image .button:hover {
   background-color: #1a1e26;
 }
-.home .page .page-id-4 .page-template .page-template-page-sectioned .site-container .site-inner {
+.page-id-4 .site-container .site-inner {
   background-color: #ffffff;
   padding: 0;
   margin: 0;
 }
-.home .page .page-id-4 .page-template .page-template-page-sectioned .site-container .site-inner .content-sidebar-wrap {
+.page-id-4 .site-container .site-inner .content-sidebar-wrap {
   background-color: #ffffff;
 }
 .sectioned-page-wrapper .section {
