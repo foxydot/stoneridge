@@ -53,7 +53,7 @@
   margin: 0;
 }
 .page-template-page-sectioned .site-container .site-inner .content-sidebar-wrap {
-  background: transparent;
+  background-image: linear-gradient(to right, #d4d4d4 0%, #d4d4d4 33.3%, #ffffff 33.4%, #ffffff 100%);
 }
 .sectioned-page-wrapper {
   position: relative;
