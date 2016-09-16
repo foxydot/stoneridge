@@ -1,8 +1,8 @@
+/* Import Fonts
+------------------------------------------------------------ */
 @import url(//fonts.googleapis.com/css?family=Allura|Raleway:400,200,700);
 @import url(https://fonts.googleapis.com/css?family=Carrois+Gothic);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,700italic,700,600,600italic);
-/* Import Fonts
------------------------------------------------------------- */
 /* Font Stacks */
 .customsansserif,
 .customsanserif {
@@ -53,11 +53,11 @@
   background-image: url(../img/stone-header.png);
   background-position: center 75%;
   background-size: cover;
-  margin-bottom: -132px;
+  margin-bottom: -158px;
 }
 .pre-header .widget-area {
-  color: #ffffff;
-  text-shadow: 0 0 4px #2d2d2d;
+  color: #FFF;
+  text-shadow: 0 0 4px #2D2D2D;
   position: relative;
   top: -80px;
   font-family: "Carrois Gothic", "Helvetica Neue", "Trebuchet MS", Calibri, sans-serif;
@@ -81,14 +81,16 @@
   margin: 0 auto;
 }
 .site-header {
-  background-color: #005a9b;
+  background-color: rgba(0, 90, 155, 0);
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-.site-header .title-area {
+.site-header .title-area,
+.site-header .widget-area {
+  opacity: 0;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
@@ -107,19 +109,19 @@
   font-size: 50px;
   font-size: 5rem;
   line-height: 1.625;
-  color: #ffffff;
+  color: #FFF;
   text-transform: uppercase;
   font-weight: 600;
   line-height: 1;
 }
 .hp-top .widget_sp_image h3 {
   line-height: 1;
-  color: #ffffff;
+  color: #FFF;
 }
 .hp-top .widget_sp_image .button {
   border: 0;
   background-color: #2f3644;
-  color: #ffffff;
+  color: #FFF;
   text-decoration: none;
   margin: 0;
 }
@@ -127,7 +129,7 @@
   background-color: #1a1e26;
 }
 .site-inner {
-  background: #ffffff;
+  background: #FFF;
 }
 .site-inner .button,
 .site-inner .button:hover {
@@ -146,12 +148,12 @@
   height: 600px;
 }
 .sectioned-page-wrapper .section.section-forms {
-  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMSAxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9Imxlc3NoYXQtZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNkNGQ0ZDQiIHN0b3Atb3BhY2l0eT0iMSIvPjxzdG9wIG9mZnNldD0iMzMlIiBzdG9wLWNvbG9yPSIjZDRkNGQ0IiBzdG9wLW9wYWNpdHk9IjEiLz48c3RvcCBvZmZzZXQ9IjY2JSIgc3RvcC1jb2xvcj0iIzAwOTc3NSIgc3RvcC1vcGFjaXR5PSIxIi8+PHN0b3Agb2Zmc2V0PSI5OSUiIHN0b3AtY29sb3I9IiMwMDk3NzUiIHN0b3Atb3BhY2l0eT0iMSIvPjwvbGluZWFyR3JhZGllbnQ+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNsZXNzaGF0LWdlbmVyYXRlZCkiIC8+PC9zdmc+);
-  background-image: -webkit-linear-gradient(left, #d4d4d4 0%, #d4d4d4 49.9%, #009775 50%, #009775 100%);
-  background-image: -moz-linear-gradient(left, #d4d4d4 0%, #d4d4d4 49.9%, #009775 50%, #009775 100%);
-  background-image: -o-linear-gradient(left, #d4d4d4 0%, #d4d4d4 49.9%, #009775 50%, #009775 100%);
-  background-image: linear-gradient(to right, #d4d4d4 0%, #d4d4d4 49.9%, #009775 50%, #009775 100%);
-  border-bottom: 1px solid #d4d4d4 !important;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMSAxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9Imxlc3NoYXQtZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNENEQ0RDQiIHN0b3Atb3BhY2l0eT0iMSIvPjxzdG9wIG9mZnNldD0iMzMlIiBzdG9wLWNvbG9yPSIjRDRENEQ0IiBzdG9wLW9wYWNpdHk9IjEiLz48c3RvcCBvZmZzZXQ9IjY2JSIgc3RvcC1jb2xvcj0iIzAwOTc3NSIgc3RvcC1vcGFjaXR5PSIxIi8+PHN0b3Agb2Zmc2V0PSI5OSUiIHN0b3AtY29sb3I9IiMwMDk3NzUiIHN0b3Atb3BhY2l0eT0iMSIvPjwvbGluZWFyR3JhZGllbnQ+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNsZXNzaGF0LWdlbmVyYXRlZCkiIC8+PC9zdmc+);
+  background-image: -webkit-linear-gradient(left, #D4D4D4 0%, #D4D4D4 49.9%, #009775 50%, #009775 100%);
+  background-image: -moz-linear-gradient(left, #D4D4D4 0%, #D4D4D4 49.9%, #009775 50%, #009775 100%);
+  background-image: -o-linear-gradient(left, #D4D4D4 0%, #D4D4D4 49.9%, #009775 50%, #009775 100%);
+  background-image: linear-gradient(to right, #D4D4D4 0%, #D4D4D4 49.9%, #009775 50%, #009775 100%);
+  border-bottom: 1px solid #D4D4D4 !important;
 }
 .sectioned-page-wrapper .section.section-forms .section-body .wrap {
   padding: 0;
@@ -184,7 +186,7 @@
 }
 .sectioned-page-wrapper .section.section-forms .section-content h3,
 .sectioned-page-wrapper .section.section-forms .section-content h3.gform_title {
-  color: #ffffff;
+  color: #FFF;
   font-size: 1.3em;
   text-align: center;
   font-weight: 500;
@@ -195,13 +197,13 @@
 }
 .sectioned-page-wrapper .section.section-forms .section-content.column-2 {
   background-color: #009775;
-  color: #d4d4d4;
+  color: #D4D4D4;
 }
 .sectioned-page-wrapper .section.section-forms .section-content.column-2 .calculator-box {
   margin: 30px auto;
   width: auto;
   display: inline-block;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #D4D4D4;
   border-radius: 12px;
   padding: 2rem;
   font-size: 2.1rem;
@@ -228,7 +230,7 @@
   background-size: 50px auto;
   background-image: url(../img/icon-calculator.png);
   padding-left: 55px;
-  color: #d4d4d4;
+  color: #D4D4D4;
   font-size: 3rem;
   line-height: 1;
   max-width: 280px;
@@ -252,7 +254,7 @@
   background-color: rgba(255, 255, 255, 0);
   border: 2px solid #888888;
   border-radius: 6px;
-  background-color: #ffffff;
+  background-color: #FFF;
   font-size: 14px;
   max-width: 280px;
   width: 100%;
@@ -272,7 +274,7 @@
 .sectioned-page-wrapper .section.section-lifestyle .section-body .wrap .button {
   border: 0;
   background-color: #005a9b;
-  color: #ffffff;
+  color: #FFF;
   text-decoration: none;
 }
 .sectioned-page-wrapper .section.section-lifestyle .section-body .wrap .button:hover {
@@ -302,11 +304,11 @@
     font-size: 7vw;
   }
   .sectioned-page-wrapper .section.section-forms {
-    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMSAxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9Imxlc3NoYXQtZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNkNGQ0ZDQiIHN0b3Atb3BhY2l0eT0iMSIvPjxzdG9wIG9mZnNldD0iMzMlIiBzdG9wLWNvbG9yPSIjZDRkNGQ0IiBzdG9wLW9wYWNpdHk9IjEiLz48c3RvcCBvZmZzZXQ9IjY2JSIgc3RvcC1jb2xvcj0iIzAwOTc3NSIgc3RvcC1vcGFjaXR5PSIxIi8+PHN0b3Agb2Zmc2V0PSI5OSUiIHN0b3AtY29sb3I9IiMwMDk3NzUiIHN0b3Atb3BhY2l0eT0iMSIvPjwvbGluZWFyR3JhZGllbnQ+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNsZXNzaGF0LWdlbmVyYXRlZCkiIC8+PC9zdmc+);
-    background-image: -webkit-linear-gradient(top, #d4d4d4 0%, #d4d4d4 49.9%, #009775 50%, #009775 100%);
-    background-image: -moz-linear-gradient(top, #d4d4d4 0%, #d4d4d4 49.9%, #009775 50%, #009775 100%);
-    background-image: -o-linear-gradient(top, #d4d4d4 0%, #d4d4d4 49.9%, #009775 50%, #009775 100%);
-    background-image: linear-gradient(to bottom, #d4d4d4 0%, #d4d4d4 49.9%, #009775 50%, #009775 100%);
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMSAxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9Imxlc3NoYXQtZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNENEQ0RDQiIHN0b3Atb3BhY2l0eT0iMSIvPjxzdG9wIG9mZnNldD0iMzMlIiBzdG9wLWNvbG9yPSIjRDRENEQ0IiBzdG9wLW9wYWNpdHk9IjEiLz48c3RvcCBvZmZzZXQ9IjY2JSIgc3RvcC1jb2xvcj0iIzAwOTc3NSIgc3RvcC1vcGFjaXR5PSIxIi8+PHN0b3Agb2Zmc2V0PSI5OSUiIHN0b3AtY29sb3I9IiMwMDk3NzUiIHN0b3Atb3BhY2l0eT0iMSIvPjwvbGluZWFyR3JhZGllbnQ+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNsZXNzaGF0LWdlbmVyYXRlZCkiIC8+PC9zdmc+);
+    background-image: -webkit-linear-gradient(top, #D4D4D4 0%, #D4D4D4 49.9%, #009775 50%, #009775 100%);
+    background-image: -moz-linear-gradient(top, #D4D4D4 0%, #D4D4D4 49.9%, #009775 50%, #009775 100%);
+    background-image: -o-linear-gradient(top, #D4D4D4 0%, #D4D4D4 49.9%, #009775 50%, #009775 100%);
+    background-image: linear-gradient(to bottom, #D4D4D4 0%, #D4D4D4 49.9%, #009775 50%, #009775 100%);
   }
   .sectioned-page-wrapper .section.section-forms .section-body > .wrap > .row {
     margin: 0;
@@ -317,11 +319,11 @@
     padding-right: 10vw;
   }
   .sectioned-page-wrapper .section.section-forms .section-content.column-1 {
-    background-color: #e3e2e0;
+    background-color: #E3E2E0;
   }
   .sectioned-page-wrapper .section.section-forms .section-content.column-2 {
     background-color: #009775;
-    color: #ffffff;
+    color: #FFF;
   }
   .sectioned-page-wrapper .section.section-forms .section-content.column-2 .icon-calculator:before {
     margin: 2rem 0;
@@ -355,8 +357,7 @@
   }
   .sectioned-page-wrapper .section.section-programs .section-title,
   .sectioned-page-wrapper .section.section-programs .section-body {
-    background-color: #ffffff;
+    background-color: #FFF;
     padding: 0 2vw;
   }
 }
-/*# sourceMappingURL=homepage.css.map */
