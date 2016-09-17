@@ -137,7 +137,7 @@ class MSDNewsCPT {
 	       $i++;
 	     }
         if($i%$perpage != $perpage-1){
-            $publication_list .= '</div>';
+            //$publication_list .= '</div>';
             $paging .= '<li data-page="'.$p.'">'.$p.'</li>';
         }
 		
