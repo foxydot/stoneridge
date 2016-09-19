@@ -150,7 +150,7 @@ Site Navigation
 .nav-primary {
   display: inline-block;
   width: 100%;
-  text-align: center;
+  text-align: left;
   padding-top: 40px;
   border-bottom: 2px solid #d4d4d4;
 }
@@ -171,10 +171,10 @@ Site Navigation
   transition: all 0.5s ease-in-out;
 }
 .nav-primary li.menu-item.first-child {
-  padding-left: 0;
+  padding-left: 0 !important;
 }
 .nav-primary li.menu-item.last-child {
-  padding-right: 0;
+  padding-right: 0 !important;
 }
 .nav-primary li.menu-item .sub-menu {
   margin-top: -30px;
