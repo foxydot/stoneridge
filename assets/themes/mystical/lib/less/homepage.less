@@ -96,40 +96,6 @@
     }
 
   }
-  .section.section-topboxes{
-    height:600px;
-    background-position: center top;
-    padding: 8rem 0;
-    .section-title{
-      padding-right: 50%;
-      h3{
-        color: @navy;
-        text-align: left;
-      }
-    }
-    .section-body{
-       padding-right: 50%;
-      .wrap{
-        max-width: 550px;
-        margin: 0;
-        text-align: left;
-        .button{
-          border: 0;
-          background-color: @navy;
-          color: @white;
-          text-decoration: none;
-          border: 2px solid @navy;
-          border-radius: 0px;
-          margin-left: 0;
-          &:hover{
-            background-color: @white;
-            color:@navy;
-            border: 2px solid @white;
-          }
-        }
-      }
-    }
-  }
   .section.section-forms{
     .background-image(linear-gradient(to right, @ltgrey 0%,@ltgrey 49.9%,@teal 50%,@teal 100%));
     border-bottom: 1px solid @ltgrey !important;
@@ -254,6 +220,40 @@
       }
     }
   }
+  .section.section-topboxes{
+    height:600px;
+    background-position: center top;
+    padding: 8rem 0;
+    .section-title{
+      padding-right: 50%;
+      h3{
+        color: @navy;
+        text-align: left;
+      }
+    }
+    .section-body{
+       padding-right: 50%;
+      .wrap{
+        max-width: 550px;
+        margin: 0;
+        text-align: left;
+        .button{
+          border: 0;
+          background-color: @navy;
+          color: @white;
+          text-decoration: none;
+          border: 2px solid @navy;
+          border-radius: 0px;
+          margin-left: 0;
+          &:hover{
+            background-color: @white;
+            color:@navy;
+            border: 2px solid @white;
+          }
+        }
+      }
+    }
+  }
   .section.section-programs{
     background-position: center top;
     padding: 8rem 0;
@@ -261,7 +261,7 @@
       padding-left: 50%;
       h3{
         color: @navy;
-        text-align: left;
+        text-align: right;
       }
     }
     .section-body{
@@ -343,6 +343,12 @@
       padding: 7vw 0;
       .section-title,.section-body{
         padding-right: 2%;
+      }
+    }
+    .section.section-topboxes{
+      padding: 7vw 0;
+      .section-title,.section-body{
+        padding-left: 2%;
       }
     }
   }
