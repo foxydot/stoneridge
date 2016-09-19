@@ -291,7 +291,6 @@
   text-decoration: none;
   border: 2px solid #2f3644;
   border-radius: 0px;
-  margin-right: 0;
 }
 .sectioned-page-wrapper .section.section-lifestyle .section-body .wrap .button:hover {
   background-color: #ffffff;
@@ -316,6 +315,20 @@
   max-width: 550px;
   margin: 0;
   text-align: left;
+}
+.sectioned-page-wrapper .section.section-programs .section-body .wrap .button {
+  border: 0;
+  background-color: #2f3644;
+  color: #ffffff;
+  text-decoration: none;
+  border: 2px solid #2f3644;
+  border-radius: 0px;
+  margin-right: 0;
+}
+.sectioned-page-wrapper .section.section-programs .section-body .wrap .button:hover {
+  background-color: #ffffff;
+  color: #2f3644;
+  border: 2px solid #ffffff;
 }
 @media only screen and (max-width: 980px) {
   nav.homepage-top .menu li a {
