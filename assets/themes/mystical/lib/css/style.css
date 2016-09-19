@@ -8061,7 +8061,7 @@ Footer Widgets
   column-gap: 30px;
   padding-left: 100px;
 }
-.footer-widgets .widget.widget_nav_menu ul.menu ul.first-child {
+.footer-widgets .widget.widget_nav_menu ul.menu .first-child {
   display: none;
 }
 .footer-widgets .widget.widget_nav_menu ul.menu > li {
