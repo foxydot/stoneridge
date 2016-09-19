@@ -8066,9 +8066,6 @@ Footer Widgets
   page-break-inside: avoid;
   break-inside: avoid;
 }
-.footer-widgets .widget.widget_nav_menu ul.menu > li .first-child {
-  display: none;
-}
 .footer-widgets .widget.widget_nav_menu ul.menu > li > a {
   text-transform: uppercase;
   font-weight: 700;
