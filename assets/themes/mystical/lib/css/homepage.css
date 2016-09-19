@@ -145,27 +145,27 @@
   padding: 0;
   text-shadow: 0 0 0 rgba(255, 255, 255, 0);
 }
-.sectioned-page-wrapper .section .section.section-topboxes {
+.sectioned-page-wrapper .section .section.section-top {
   height: 600px;
   background-position: center top;
   padding: 8rem 0;
 }
-.sectioned-page-wrapper .section .section.section-topboxes .section-title {
+.sectioned-page-wrapper .section .section.section-top .section-title {
   padding-right: 50%;
 }
-.sectioned-page-wrapper .section .section.section-topboxes .section-title h3 {
+.sectioned-page-wrapper .section .section.section-top .section-title h3 {
   color: #2f3644;
   text-align: left;
 }
-.sectioned-page-wrapper .section .section.section-topboxes .section-body {
+.sectioned-page-wrapper .section .section.section-top .section-body {
   padding-right: 50%;
 }
-.sectioned-page-wrapper .section .section.section-topboxes .section-body .wrap {
+.sectioned-page-wrapper .section .section.section-top .section-body .wrap {
   max-width: 550px;
   margin: 0;
   text-align: left;
 }
-.sectioned-page-wrapper .section .section.section-topboxes .section-body .wrap .button {
+.sectioned-page-wrapper .section .section.section-top .section-body .wrap .button {
   border: 0;
   background-color: #2f3644;
   color: #ffffff;
@@ -174,7 +174,7 @@
   border-radius: 0px;
   margin-left: 0;
 }
-.sectioned-page-wrapper .section .section.section-topboxes .section-body .wrap .button:hover {
+.sectioned-page-wrapper .section .section.section-top .section-body .wrap .button:hover {
   background-color: #ffffff;
   color: #2f3644;
   border: 2px solid #ffffff;
