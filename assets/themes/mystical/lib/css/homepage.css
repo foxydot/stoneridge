@@ -38,6 +38,7 @@
   border: 2px solid #ffffff;
   border-radius: 0px;
   background-color: rgba(255, 255, 255, 0.4);
+  border: 2px solid #2f3644;
 }
 /* Clears */
 .msd-clearfix {
@@ -146,6 +147,20 @@
 }
 .sectioned-page-wrapper .section .section.section-topboxes {
   height: 600px;
+}
+.sectioned-page-wrapper .section .section.section-topboxes .section-body .wrap .button {
+  border: 0;
+  background-color: #2f3644;
+  color: #ffffff;
+  text-decoration: none;
+  border: 2px solid #2f3644;
+  border-radius: 0px;
+  margin-left: 0;
+}
+.sectioned-page-wrapper .section .section.section-topboxes .section-body .wrap .button:hover {
+  background-color: #ffffff;
+  color: #2f3644;
+  border: 2px solid #ffffff;
 }
 .sectioned-page-wrapper .section.section-forms {
   background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMSAxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9Imxlc3NoYXQtZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNkNGQ0ZDQiIHN0b3Atb3BhY2l0eT0iMSIvPjxzdG9wIG9mZnNldD0iMzMlIiBzdG9wLWNvbG9yPSIjZDRkNGQ0IiBzdG9wLW9wYWNpdHk9IjEiLz48c3RvcCBvZmZzZXQ9IjY2JSIgc3RvcC1jb2xvcj0iIzAwOTc3NSIgc3RvcC1vcGFjaXR5PSIxIi8+PHN0b3Agb2Zmc2V0PSI5OSUiIHN0b3AtY29sb3I9IiMwMDk3NzUiIHN0b3Atb3BhY2l0eT0iMSIvPjwvbGluZWFyR3JhZGllbnQ+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNsZXNzaGF0LWdlbmVyYXRlZCkiIC8+PC9zdmc+);
@@ -271,12 +286,17 @@
 }
 .sectioned-page-wrapper .section.section-lifestyle .section-body .wrap .button {
   border: 0;
-  background-color: #005a9b;
+  background-color: #2f3644;
   color: #ffffff;
   text-decoration: none;
+  border: 2px solid #2f3644;
+  border-radius: 0px;
+  margin-right: 0;
 }
 .sectioned-page-wrapper .section.section-lifestyle .section-body .wrap .button:hover {
-  background-color: #003c68;
+  background-color: #ffffff;
+  color: #2f3644;
+  border: 2px solid #ffffff;
 }
 .sectioned-page-wrapper .section.section-programs {
   background-position: center top;

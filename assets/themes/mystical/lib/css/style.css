@@ -6305,6 +6305,7 @@ you can use the generic selector below, but it's slower:
   border: 2px solid #ffffff;
   border-radius: 0px;
   background-color: rgba(255, 255, 255, 0.4);
+  border: 2px solid #2f3644;
 }
 /* Clears */
 .msd-clearfix {
@@ -6562,6 +6563,7 @@ input:hover[type="submit"],
   border: 2px solid #ffffff;
   border-radius: 0px;
   background-color: rgba(255, 255, 255, 0.4);
+  border: 2px solid #2f3644;
 }
 .entry-content .button:hover {
   color: #ffffff;

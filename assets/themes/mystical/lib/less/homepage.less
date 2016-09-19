@@ -96,6 +96,25 @@
     }
   .section.section-topboxes{
     height:600px;
+    .section-body{
+      .wrap{
+
+        .button{
+          border: 0;
+          background-color: @navy;
+          color: @white;
+          text-decoration: none;
+          border: 2px solid @navy;
+          border-radius: 0px;
+          margin-left: 0;
+          &:hover{
+            background-color: @white;
+            color:@navy;
+            border: 2px solid @white;
+          }
+        }
+      }
+    }
   }
   }
   .section.section-forms{
@@ -208,11 +227,16 @@
         max-width: 700px;
         .button{
           border: 0;
-          background-color: @blue;
+          background-color: @navy;
           color: @white;
           text-decoration: none;
+          border: 2px solid @navy;
+          border-radius: 0px;
+          margin-right: 0;
           &:hover{
-            background-color: darken(@blue,10%);
+            background-color: @white;
+            color:@navy;
+            border: 2px solid @white;
           }
         }
       }

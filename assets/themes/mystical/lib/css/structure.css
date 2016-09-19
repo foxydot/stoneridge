@@ -43,6 +43,7 @@ Structure and Layout
   border: 2px solid #ffffff;
   border-radius: 0px;
   background-color: rgba(255, 255, 255, 0.4);
+  border: 2px solid #2f3644;
 }
 /* Clears */
 .msd-clearfix {
