@@ -215,23 +215,23 @@
 
 
 /* Buttons */
-.button(@background:@navy,@color:@navy) {
+.button(@background:@navy,@color:@white) {
   padding: 6px 24px;
   .customsanserif;
   color: @color;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
   display: table;
   margin: 12px auto;
   text-decoration: none;
   background-color: fade(@background,0%);
-  border: 2px solid @color;
-  border-radius: 6px;
+  border: 2px solid @background;
+  border-radius: 0px;
 }
 
 
-.button-hover(@background:@blue,@color:@blue) {
+.button-hover(@background:@white,@color:@navy) {
   .button(@background,@color);
   background-color: fade(@background,40%);
 }
