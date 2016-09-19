@@ -293,6 +293,7 @@
   text-align: left;
 }
 .sectioned-page-wrapper .section.section-topboxes .section-body {
+  padding-left: 18%;
   padding-right: 50%;
 }
 .sectioned-page-wrapper .section.section-topboxes .section-body .wrap {
