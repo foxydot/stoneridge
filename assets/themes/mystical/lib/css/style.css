@@ -8070,6 +8070,9 @@ Footer Widgets
   text-transform: uppercase;
   font-weight: 700;
 }
+.footer-widgets .widget.widget_nav_menu ul.menu > li a.first-child {
+  display: none;
+}
 .footer-widgets .widget.widget_nav_menu ul.menu > li .sub-menu {
   margin-bottom: 1em;
 }
