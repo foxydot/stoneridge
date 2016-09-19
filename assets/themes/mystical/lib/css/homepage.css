@@ -147,6 +147,23 @@
 }
 .sectioned-page-wrapper .section .section.section-topboxes {
   height: 600px;
+  background-position: center top;
+  padding: 8rem 0;
+}
+.sectioned-page-wrapper .section .section.section-topboxes .section-title {
+  padding-right: 50%;
+}
+.sectioned-page-wrapper .section .section.section-topboxes .section-title h3 {
+  color: #2f3644;
+  text-align: left;
+}
+.sectioned-page-wrapper .section .section.section-topboxes .section-body {
+  padding-right: 50%;
+}
+.sectioned-page-wrapper .section .section.section-topboxes .section-body .wrap {
+  max-width: 550px;
+  margin: 0;
+  text-align: left;
 }
 .sectioned-page-wrapper .section .section.section-topboxes .section-body .wrap .button {
   border: 0;
@@ -305,7 +322,7 @@
   padding-left: 50%;
 }
 .sectioned-page-wrapper .section.section-programs .section-title h3 {
-  color: #005a9b;
+  color: #2f3644;
   text-align: left;
 }
 .sectioned-page-wrapper .section.section-programs .section-body {
