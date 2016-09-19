@@ -152,6 +152,7 @@ Site Navigation
   width: 100%;
   text-align: center;
   padding-top: 40px;
+  border-bottom: 2px solid #d4d4d4;
 }
 .nav-primary li.menu-item a {
   font-family: "Carrois Gothic", "Trebuchet MS", Calibri, sans-serif;
@@ -163,7 +164,6 @@ Site Navigation
   color: #2f3644;
   text-transform: uppercase;
   font-weight: 600;
-  border-bottom: 2px solid #d4d4d4;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
