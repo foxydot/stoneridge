@@ -221,7 +221,7 @@ Site Navigation
 .nav-primary li:hover a:hover,
 .nav-primary li.current-menu-item a:hover,
 .nav-primary li.current-menu-ancestor a:hover {
-  color: #2f3644;
+  color: #009775;
   text-decoration: none;
 }
 .mainNav > ul > li.first > ul > li.title > ul > li > ul > li {
@@ -247,7 +247,7 @@ Site Navigation
   text-transform: uppercase;
 }
 .nav-secondary .wrap li.menu-item > a:hover {
-  color: #2f3644;
+  color: #009775;
 }
 .nav-secondary .wrap li.menu-item ul {
   display: none;
