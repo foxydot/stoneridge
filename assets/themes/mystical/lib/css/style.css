@@ -7303,7 +7303,7 @@ Site Navigation
   font-size: 17px;
   font-size: 1.7rem;
   line-height: 1.625;
-  padding: 1em 1.5em;
+  padding: 0.6em 1.3em;
   color: #2f3644;
   text-transform: uppercase;
   font-weight: 600;
@@ -7370,6 +7370,12 @@ Site Navigation
 }
 .mainNav > ul > li.first > ul > li.title > ul > li > ul > li {
   padding: 3px 0;
+}
+.is-sticky .nav-primary {
+  border-bottom: 0px solid #d4d4d4;
+}
+.is-sticky .nav-primary li.menu-item a {
+  color: #ffffff;
 }
 /* Secondary Navigation
 --------------------------------------------- */
