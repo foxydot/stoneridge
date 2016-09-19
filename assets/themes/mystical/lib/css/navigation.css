@@ -171,13 +171,13 @@ Site Navigation
   transition: all 0.5s ease-in-out;
 }
 .nav-primary li.menu-item.first-child {
-  padding-left: 0 !important;
+  padding-left: 0;
 }
 .nav-primary li.menu-item.last-child {
-  padding-right: 0 !important;
+  padding-right: 0;
 }
 .nav-primary li.menu-item .sub-menu {
-  margin-top: -30px;
+  margin-top: -10px;
   background-color: #ffffff;
   border: 1px solid #d4d4d4;
 }
