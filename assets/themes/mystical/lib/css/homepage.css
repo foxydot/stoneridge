@@ -284,11 +284,11 @@
   height: 600px;
   background-position: center top;
   padding: 8rem 0;
-  max-width: 1120px;
 }
 .sectioned-page-wrapper .section.section-topboxes .section-title {
   padding-right: 50%;
   padding-left: 2%;
+  max-width: 1120px;
 }
 .sectioned-page-wrapper .section.section-topboxes .section-title h3 {
   color: #2f3644;
@@ -297,6 +297,7 @@
 .sectioned-page-wrapper .section.section-topboxes .section-body {
   padding-right: 50%;
   padding-left: 2%;
+  max-width: 1120px;
 }
 .sectioned-page-wrapper .section.section-topboxes .section-body .wrap {
   max-width: 550px;
