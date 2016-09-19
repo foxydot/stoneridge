@@ -8061,13 +8061,13 @@ Footer Widgets
   column-gap: 30px;
   padding-left: 100px;
 }
-.footer-widgets .widget.widget_nav_menu ul.menu .first-child {
-  display: none;
-}
 .footer-widgets .widget.widget_nav_menu ul.menu > li {
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
   break-inside: avoid;
+}
+.footer-widgets .widget.widget_nav_menu ul.menu > li .first-child {
+  display: none;
 }
 .footer-widgets .widget.widget_nav_menu ul.menu > li > a {
   text-transform: uppercase;
