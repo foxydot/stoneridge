@@ -152,7 +152,6 @@ Site Navigation
   width: 100%;
   text-align: left;
   padding-top: 40px;
-  border-bottom: 2px solid #d4d4d4;
 }
 .nav-primary li.menu-item a {
   font-family: "Carrois Gothic", "Trebuchet MS", Calibri, sans-serif;
@@ -227,9 +226,6 @@ Site Navigation
 }
 .mainNav > ul > li.first > ul > li.title > ul > li > ul > li {
   padding: 3px 0;
-}
-.is-sticky .nav-primary {
-  border-bottom: 0px solid #d4d4d4;
 }
 .is-sticky .nav-primary li.menu-item a {
   color: #ffffff;

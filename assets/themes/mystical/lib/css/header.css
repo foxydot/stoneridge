@@ -54,8 +54,9 @@ Site Header
   background-color: #005a9b;
   padding: 20px 0;
   padding: 0.25em 0;
+  padding-bottom: 0;
   z-index: 300;
-  border-bottom: 0px solid #d4d4d4;
+  border-bottom: 2px solid #d4d4d4;
 }
 /* Title Area
 --------------------------------------------- */
