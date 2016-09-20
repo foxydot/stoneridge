@@ -61,7 +61,7 @@
   color: #ffffff !important;
 }
 .nav-responsive li a .sub-menu a {
-  color: #2f3644;
+  color: #2f3644 !important;
 }
 .nav-responsive a#pull,
 .subnav-responsive a#subpull {
