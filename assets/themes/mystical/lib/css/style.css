@@ -8586,12 +8586,19 @@ Site Footer
   margin: 0;
 }
 .nav-responsive ul,
-.nav-responsive li,
+.nav-responsive li {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
 .nav-responsive li a {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   color: #ffffff !important;
+}
+.nav-responsive li a .sub-menu a {
+  color: #2f3644;
 }
 .nav-responsive a#pull,
 .subnav-responsive a#subpull {
