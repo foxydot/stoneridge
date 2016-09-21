@@ -7376,6 +7376,15 @@ Site Navigation
 .is-sticky .nav-primary li.menu-item a {
   color: #ffffff;
 }
+.is-sticky .nav-primary li:hover a,
+.is-sticky .nav-primary li.current-menu-item a,
+.is-sticky .nav-primary li.current-menu-ancestor a,
+.is-sticky .nav-primary li:hover a:hover,
+.is-sticky .nav-primary li.current-menu-item a:hover,
+.is-sticky .nav-primary li.current-menu-ancestor a:hover {
+  color: #009775;
+  text-decoration: none;
+}
 /* Secondary Navigation
 --------------------------------------------- */
 .nav-secondary {
