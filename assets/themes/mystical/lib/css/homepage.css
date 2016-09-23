@@ -98,6 +98,98 @@
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+.nav-primary {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  padding-top: 40px;
+}
+.nav-primary li.menu-item a {
+  font-family: "Carrois Gothic", "Trebuchet MS", Calibri, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  font-size: 1.7rem;
+  line-height: 1.625;
+  padding: 0.6em 1.3em;
+  color: #2f3644;
+  text-transform: uppercase;
+  font-weight: 600;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.nav-primary li.menu-item.first-child {
+  padding-left: 0;
+}
+.nav-primary li.menu-item.last-child {
+  padding-right: 0;
+}
+.nav-primary li.menu-item .sub-menu {
+  margin-top: 0px;
+  background-color: #ffffff;
+  border: 1px solid #d4d4d4;
+}
+.nav-primary li.menu-item .sub-menu li.menu-item {
+  padding: 0 2rem;
+  width: 100%;
+  position: relative;
+}
+.nav-primary li.menu-item .sub-menu li.menu-item a {
+  background-color: transparent;
+  border: 0;
+  color: #888888;
+  padding: 1rem 0;
+  width: 100%;
+}
+.nav-primary li.menu-item .sub-menu li.menu-item .sub-menu {
+  left: 0;
+  top: 0;
+}
+.nav-primary li.menu-item .sub-menu > li.menu-item.menu-item-has-children > a:after {
+  font-family: "FontAwesome";
+  content: '\f105';
+  margin: 0 0.5em;
+}
+.nav-primary li.menu-item .sub-menu li.last-child > a {
+  border: 0;
+}
+.nav-primary li.menu-item .sub-menu li:hover > a {
+  color: #009775;
+  text-decoration: none;
+}
+.nav-primary .menu > li.menu-item.menu-item-has-children {
+  /*>a:after{
+      .fontawesome;
+      content: '\f107';
+      margin: 0 0.5em;
+    }*/
+}
+.nav-primary li:hover a,
+.nav-primary li.current-menu-item a,
+.nav-primary li.current-menu-ancestor a,
+.nav-primary li:hover a:hover,
+.nav-primary li.current-menu-item a:hover,
+.nav-primary li.current-menu-ancestor a:hover {
+  color: #009775;
+  text-decoration: none;
+}
+.mainNav > ul > li.first > ul > li.title > ul > li > ul > li {
+  padding: 3px 0;
+}
+.is-sticky .nav-primary li.menu-item a {
+  color: #ffffff;
+}
+.is-sticky .nav-primary li:hover a,
+.is-sticky .nav-primary li.current-menu-item a,
+.is-sticky .nav-primary li.current-menu-ancestor a,
+.is-sticky .nav-primary li:hover a:hover,
+.is-sticky .nav-primary li.current-menu-item a:hover,
+.is-sticky .nav-primary li.current-menu-ancestor a:hover {
+  color: #009775;
+  text-decoration: none;
+}
 .hp-top {
   z-index: -1;
 }

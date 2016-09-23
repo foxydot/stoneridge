@@ -48,6 +48,101 @@
     transition: all 0.2s ease-in-out;
   }
 }
+.nav-primary {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  padding-top: 40px;
+  li.menu-item{
+    a{
+      .customheader(1.7);
+      padding: 0.6em 1.3em;
+      color: @navy;
+      text-transform: uppercase;
+      font-weight: 600;
+      -webkit-transition: all 0.5s ease-in-out;
+      -moz-transition: all 0.5s ease-in-out;
+      -ms-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out;
+    }
+    &.first-child{
+      padding-left: 0;
+    }
+    &.last-child{
+      padding-right: 0;
+    }
+    .sub-menu{
+      margin-top: 0px;
+      background-color: @white;
+      border: 1px solid @ltgrey;
+      li.menu-item{
+        padding: 0 2rem;
+        width: 100%;
+        position: relative;
+        a{
+          background-color: transparent;
+          border: 0;
+          color: @medgrey;
+          padding: 1rem 0;
+          width: 100%;
+        }
+        .sub-menu{
+          left: 0;
+          top: 0;
+        }
+      }
+      >li.menu-item.menu-item-has-children{
+        >a:after{
+          .fontawesome;
+          content: '\f105';
+          margin: 0 0.5em;
+        }
+      }
+      li.last-child>a{
+        border: 0;
+      }
+      li:hover{
+        &>a{
+          color: @teal;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .menu>li.menu-item.menu-item-has-children{
+    /*>a:after{
+      .fontawesome;
+      content: '\f107';
+      margin: 0 0.5em;
+    }*/
+  }
+  li:hover, li.current-menu-item, li.current-menu-ancestor{
+    a, a:hover{
+      color: @teal;
+      text-decoration: none;
+      }
+  }
+}
+.mainNav>ul>li.first>ul>li.title>ul>li>ul>li {
+  padding: 3px 0;
+}
+.is-sticky{
+  .nav-primary {
+  li.menu-item{
+    a{
+      color: @white;
+      //padding: 2em 0.5em;
+    }
+  }
+  li:hover, li.current-menu-item, li.current-menu-ancestor{
+    a, a:hover{
+      color: @teal;
+      text-decoration: none;
+      }
+  }
+  }
+}
 .hp-top{
   z-index: -1;
   .widget_sp_image{
