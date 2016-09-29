@@ -370,9 +370,9 @@
   border-radius: 0px;
 }
 .sectioned-page-wrapper .section.section-lifestyle .section-body .wrap .button:hover {
-  background-color: #ffffff;
-  color: #2f3644;
-  border: 2px solid #ffffff;
+  background-color: #005A9B;
+  color: #ffffff;
+  border: 2px solid #005A9B;
 }
 .sectioned-page-wrapper .section.section-topboxes {
   height: 600px;
@@ -405,9 +405,9 @@
   margin-left: 0;
 }
 .sectioned-page-wrapper .section.section-topboxes .section-body .wrap .button:hover {
-  background-color: #ffffff;
-  color: #2f3644;
-  border: 2px solid #ffffff;
+  background-color: #005A9B;
+  color: #ffffff;
+  border: 2px solid #005A9B;
 }
 .sectioned-page-wrapper .section.section-programs {
   background-position: center top;
@@ -438,9 +438,9 @@
   margin-right: 0;
 }
 .sectioned-page-wrapper .section.section-programs .section-body .wrap .button:hover {
-  background-color: #ffffff;
-  color: #2f3644;
-  border: 2px solid #ffffff;
+  background-color: #005A9B;
+  color: #ffffff;
+  border: 2px solid #005A9B;
 }
 @media only screen and (max-width: 980px) {
   nav.homepage-top .menu li a {
