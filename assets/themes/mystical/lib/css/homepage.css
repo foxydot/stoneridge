@@ -386,11 +386,11 @@
   text-align: left;
 }
 .sectioned-page-wrapper .section.section-topboxes .section-body {
-  padding-left: 10%;
+  padding-left: 18%;
   padding-right: 50%;
 }
 .sectioned-page-wrapper .section.section-topboxes .section-body .wrap {
-  max-width: 550px;
+  max-width: 500px;
   margin: 0;
   text-align: left;
 }
@@ -421,7 +421,6 @@
 }
 .sectioned-page-wrapper .section.section-programs .section-body {
   padding-left: 50%;
-  padding-right: 10%;
 }
 .sectioned-page-wrapper .section.section-programs .section-body .wrap {
   max-width: 550px;
