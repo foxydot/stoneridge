@@ -8136,7 +8136,10 @@ Site Footer
   font-weight: 700;
 }
 .site-footer .wrap div.icons i.icon-equal-housing {
-  background-image: url(../img/icon-equal-housing.png);
+  background-image: url(../img/Equal-Housing-new2.png);
+  height: 25px;
+  top: .3em;
+  position: relative;
 }
 .site-footer .wrap div.icons i.logo {
   height: 40px;
