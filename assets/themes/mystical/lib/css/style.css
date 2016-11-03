@@ -7012,6 +7012,15 @@ img#wpstats {
   padding: inherit;
   text-align: inherit;
 }
+.mystical .jp-carousel-overlay {
+  opacity: 0.8;
+  background-image: url('../img/overlay.png') !important;
+  background-repeat: repeat !important;
+  background-color: transparent !important;
+}
+.mystical .jp-carousel-slide img {
+  border: 6px #2d2d2d solid !important;
+}
 /*
 Site Header
 ---------------------------------------------------------------------------------------------------- */
