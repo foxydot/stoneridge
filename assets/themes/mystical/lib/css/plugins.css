@@ -103,7 +103,7 @@ div.gform_wrapper .gform_body .gfield {
 }
 div.gform_wrapper .gform_body .gfield .ginput_container .gfield_radio li {
   display: inline-block;
-  min-width: 16%;
+  min-width: 10%;
 }
 div.gform_wrapper .gform_body .gfield .ginput_container .gfield_radio li input,
 div.gform_wrapper .gform_body .gfield .ginput_container .gfield_radio li label {
