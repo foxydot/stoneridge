@@ -52,7 +52,7 @@
   min-height: 170px;
   padding: 100px 0;
   background-image: url(../img/stone-header-2.png);
-  background-position: center 75%;
+  background-position: bottom;
   background-size: cover;
   margin-bottom: -166px;
 }
