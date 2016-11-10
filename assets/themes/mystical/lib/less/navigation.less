@@ -123,10 +123,11 @@ Site Navigation
   width: 100%;
   text-align: left;
   padding-top: 40px;
+  z-index: 100;
   li.menu-item{
     a{
       .customheader(1.7);
-      padding: 0.6em 1em;
+      padding: 0.6em 1.125em;
       color: @white;
       text-transform: uppercase;
       font-weight: 600;
@@ -179,13 +180,6 @@ Site Navigation
         }
       }
     }
-  }
-  .menu>li.menu-item.menu-item-has-children{
-    /*>a:after{
-      .fontawesome;
-      content: '\f107';
-      margin: 0 0.5em;
-    }*/
   }
   li:hover, li.current-menu-item, li.current-menu-ancestor{
     a, a:hover{

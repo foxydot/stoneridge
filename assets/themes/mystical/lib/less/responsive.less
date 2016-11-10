@@ -13,6 +13,14 @@
     display: none;
 }
 
+.header-image .site-header {
+  width: 100%;
+  .header-widget-area{
+    .text-widget{
+      font-size: 18px;
+    }
+  }
+}
 
 
 /* Responsive Design Custom Styles
@@ -52,6 +60,18 @@
 
 @media only screen and (max-width: 980px) {
   /* Enter Your Custom Styles Here */
+.header-image .site-header {
+  .header-widget-area{
+    .text-widget{
+      font-size: 2vw;
+    }
+  }
+  .title-area{ 
+  padding-top: 1rem;
+  .site-title{
+    }
+  }
+}
   .section-title{
     font-size: 7vw;
   }
@@ -59,10 +79,14 @@
     background-image: none;
   }
   .footer-widgets{
-    .widget.widget_nav_menu ul.menu {
-      -moz-column-count: 3;
-      -webkit-column-count: 3;
-      column-count: 3;
+    .widget.widget_nav_menu{ 
+      padding-left: 0;
+      ul.menu {
+        padding-left: 0;
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+      }
     }
   }
 }
@@ -79,6 +103,7 @@
   }
   .nav-primary{
     width: 100vw;
+    padding-top: 0;
   }
   .nav-responsive {
       text-align: left;
@@ -92,7 +117,7 @@
       width: 100%;
       position: relative;
       text-indent: 20px;
-      background: @ltorange;
+      background: @teal;
       min-height: 50px;
       padding-top: 14px;
       position: relative;
@@ -109,7 +134,7 @@
           list-style: none;
           padding: 0;
           a{
-            background: @ltorange;
+            background: @teal;
             color: @white;
             display: block;
             width: 100%;
@@ -123,7 +148,7 @@
             }
           }
           a:hover{
-            background: lighten(@ltorange,10%);
+            background: lighten(@teal,10%);
           }
           .toggle-switch{
             margin-right: 12px;
@@ -161,7 +186,7 @@
         }
         li.current-menu-item{
           a{
-          background: lighten(@ltorange, 15%);
+          background: lighten(@teal, 15%);
           }
         }
       }
