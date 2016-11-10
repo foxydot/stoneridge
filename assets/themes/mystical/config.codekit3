@@ -1803,6 +1803,78 @@
 		"oAP": "\/lib\/fonts\/Simple-Line-Icons.woff",
 		"oF": 0
 		},
+	"\/lib\/img\/apple-touch-icon-114x114.png": {
+		"ft": 32768,
+		"iS": 15574,
+		"oA": 0,
+		"oAP": "\/lib\/img\/apple-touch-icon-114x114.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/lib\/img\/apple-touch-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 15495,
+		"oA": 0,
+		"oAP": "\/lib\/img\/apple-touch-icon-120x120.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/lib\/img\/apple-touch-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 18865,
+		"oA": 0,
+		"oAP": "\/lib\/img\/apple-touch-icon-144x144.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/lib\/img\/apple-touch-icon-152x152.png": {
+		"ft": 32768,
+		"iS": 23454,
+		"oA": 0,
+		"oAP": "\/lib\/img\/apple-touch-icon-152x152.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/lib\/img\/apple-touch-icon-180x180.png": {
+		"ft": 32768,
+		"iS": 33866,
+		"oA": 0,
+		"oAP": "\/lib\/img\/apple-touch-icon-180x180.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/lib\/img\/apple-touch-icon-57x57.png": {
+		"ft": 32768,
+		"iS": 4568,
+		"oA": 0,
+		"oAP": "\/lib\/img\/apple-touch-icon-57x57.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/lib\/img\/apple-touch-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 6347,
+		"oA": 0,
+		"oAP": "\/lib\/img\/apple-touch-icon-72x72.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/lib\/img\/apple-touch-icon-76x76.png": {
+		"ft": 32768,
+		"iS": 7394,
+		"oA": 0,
+		"oAP": "\/lib\/img\/apple-touch-icon-76x76.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/lib\/img\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 4568,
+		"oA": 0,
+		"oAP": "\/lib\/img\/apple-touch-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/lib\/img\/Equal-Housing-new2-ie.png": {
 		"ft": 32768,
 		"iS": 20539,
@@ -1828,6 +1900,12 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/lib\/img\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/img\/favicon.ico",
+		"oF": 0
 		},
 	"\/lib\/img\/icon-accessible.png": {
 		"ft": 32768,
@@ -1860,6 +1938,12 @@
 		"oAP": "\/lib\/img\/icon.png",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/lib\/img\/iconifier-readme.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/img\/iconifier-readme.txt",
+		"oF": 0
 		},
 	"\/lib\/img\/lcs-logo.svg": {
 		"ft": 2097152,
