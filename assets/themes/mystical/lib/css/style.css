@@ -8603,6 +8603,15 @@ Site Footer
 .notification-bar p {
   margin: 0;
 }
+a[href^="tel"] {
+  color: inherit;
+  text-decoration: none;
+}
+.pre-header a[href^="tel"],
+.footer-widgets a[href^="tel"] {
+  color: #FFF;
+  text-decoration: none;
+}
 .nav-responsive ul,
 .nav-responsive li,
 .nav-responsive li a {
