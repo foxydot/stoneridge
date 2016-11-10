@@ -1252,7 +1252,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/lib\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
@@ -1803,6 +1803,14 @@
 		"oAP": "\/lib\/fonts\/Simple-Line-Icons.woff",
 		"oF": 0
 		},
+	"\/lib\/img\/Equal-Housing-new2-ie.png": {
+		"ft": 32768,
+		"iS": 20539,
+		"oA": 0,
+		"oAP": "\/lib\/img\/Equal-Housing-new2-ie.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/lib\/img\/Equal-Housing-new2.png": {
 		"ft": 32768,
 		"iS": 24033,
@@ -1868,6 +1876,14 @@
 		"iS": 37139,
 		"oA": 0,
 		"oAP": "\/lib\/img\/lcs_white_logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/lib\/img\/logo-lcs-new-white-ie.png": {
+		"ft": 32768,
+		"iS": 31752,
+		"oA": 0,
+		"oAP": "\/lib\/img\/logo-lcs-new-white-ie.png",
 		"oF": 0,
 		"opt": 0
 		},
