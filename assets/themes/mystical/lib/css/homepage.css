@@ -447,5 +447,16 @@
   }
   .sectioned-page-wrapper .section.section-forms .section-content.column-2 .calculator-box {
     width: 100%;
+    height: auto;
+    padding: 1.5em;
+    font-size: 4vw;
+  }
+  .sectioned-page-wrapper .section.section-forms .section-content.column-2 .calculator-box p {
+    margin: 0;
+  }
+  .sectioned-page-wrapper .section.section-forms .section-content.column-2 .calculator-box h3 {
+    font-size: 6.5vw;
+    line-height: 1;
+    max-width: 85%;
   }
 }
